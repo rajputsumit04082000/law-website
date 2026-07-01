@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { SITE_CONTENT } from "@/data/content";
 
 const locations = [
   {
@@ -26,14 +27,14 @@ const contactDetails = [
   {
     icon: Phone,
     title: "Phone",
-    value: "+919911077828",
-    href: "tel:+919911077828",
+    value: SITE_CONTENT.company.phone,
+    href: `tel:${SITE_CONTENT.company.phone.replace(/[\s-]/g, '')}`,
   },
   {
     icon: Mail,
     title: "Email",
-    value: "lawyersandhya@gmail.com",
-    href: "mailto:lawyersandhya@gmail.com",
+    value: SITE_CONTENT.company.email,
+    href: `mailto:${SITE_CONTENT.company.email}`,
   },
   {
     icon: Clock,

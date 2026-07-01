@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Phone, Calendar } from "lucide-react";
+import { SITE_CONTENT } from "@/data/content";
 
 export function AboutCTA() {
   return (
@@ -41,14 +42,14 @@ export function AboutCTA() {
                 Book a Free Consultation
               </motion.button>
             </Link>
-            <a href="tel:+919911077828">
+            <a href={`tel:${SITE_CONTENT.company.phone.replace(/[\s-]/g, '')}`}>
               <motion.button
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.97 }}
                 className="inline-flex items-center gap-2 bg-white hover:bg-white/90 text-[#0b1120] font-semibold px-8 py-4 rounded-full text-[15px] shadow-lg transition-colors duration-300"
               >
                 <Phone className="w-4 h-4" />
-                Call: +91 9911077828
+                Call: {SITE_CONTENT.company.phone}
               </motion.button>
             </a>
           </div>

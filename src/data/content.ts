@@ -2,8 +2,8 @@ export const SITE_CONTENT = {
   announcement: "Contact us today for a free initial consultation. Available 24/7 for emergencies.",
   company: {
     name: "PRIME LEAGAL SERVICE",
-    phone: "+91 9911077828",
-    email: "ABC@gmail.com",
+    phone: "+91 0000000000",
+    email: "dummy@example.com",
     address: "123 Legal Avenue, Suite 500, City, State 12345",
     workingHours: "Mon - Fri: 9:00 AM - 6:00 PM"
   },

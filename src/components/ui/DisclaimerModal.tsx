@@ -26,7 +26,7 @@ export function DisclaimerModal() {
       <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
 
       {/* Modal */}
-      <div className="relative bg-white rounded-lg shadow-2xl w-full max-w-2xl z-10">
+      <div className="relative bg-white rounded-lg shadow-2xl w-full max-w-2xl z-10 max-h-[90vh] flex flex-col">
 
         {/* Close Button */}
         <button
@@ -37,7 +37,7 @@ export function DisclaimerModal() {
           <X className="w-4 h-4" />
         </button>
 
-        <div className="px-8 py-5">
+        <div className="px-8 py-5 overflow-y-auto flex-1">
           {/* Title */}
           <h2 className="text-xl font-serif font-bold text-center text-gray-900 mb-4">
             Disclaimer

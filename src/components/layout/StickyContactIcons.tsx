@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Mail, Phone } from "lucide-react";
+import { SITE_CONTENT } from "@/data/content";
 
 function WhatsAppIcon() {
   return (
@@ -13,7 +14,7 @@ export function StickyContactIcons() {
   return (
     <div className="fixed left-0 top-1/2 -translate-y-1/2 z-[150] flex flex-col gap-1.5">
       <Link
-        href="mailto:lawyersandhya@gmail.com"
+        href={`mailto:${SITE_CONTENT.company.email}`}
         aria-label="Email Us"
         className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 bg-[#e0332f] shadow-lg transition-all duration-200 hover:brightness-110"
         style={{ borderRadius: "0 6px 6px 0" }}
@@ -22,7 +23,7 @@ export function StickyContactIcons() {
       </Link>
 
       <Link
-        href="tel:+919911077828"
+        href={`tel:${SITE_CONTENT.company.phone.replace(/[\s-]/g, '')}`}
         aria-label="Call Us"
         className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 bg-[#1877f2] shadow-lg transition-all duration-200 hover:brightness-110"
         style={{ borderRadius: "0 6px 6px 0" }}
@@ -31,7 +32,7 @@ export function StickyContactIcons() {
       </Link>
 
       <Link
-        href="https://wa.me/919911077828"
+        href={`https://wa.me/${SITE_CONTENT.company.phone.replace(/\D/g, '')}`}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp Us"

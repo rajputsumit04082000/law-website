@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { CheckCircle2, Phone, Mail, Scale } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { SITE_CONTENT } from "@/data/content";
 
 const highlights = [
   "15+ Years of Dedicated Legal Practice",
@@ -128,11 +129,11 @@ export function AboutHero() {
                   Book a Consultation
                 </Button>
               </Link>
-              <a href="tel:+919911077828" className="flex items-center gap-2 text-[#0b1120] font-semibold hover:text-[#D4AF37] transition-colors group">
+              <a href={`tel:${SITE_CONTENT.company.phone.replace(/[\s-]/g, '')}`} className="flex items-center gap-2 text-[#0b1120] font-semibold hover:text-[#D4AF37] transition-colors group">
                 <span className="w-10 h-10 rounded-full bg-[#D4AF37]/10 flex items-center justify-center group-hover:bg-[#D4AF37]/20 transition-colors">
                   <Phone className="w-4 h-4 text-[#D4AF37]" />
                 </span>
-                +91 9911077828
+                {SITE_CONTENT.company.phone}
               </a>
             </div>
           </motion.div>
