@@ -56,11 +56,12 @@ export async function POST(req: NextRequest) {
       status: "new",
     });
 
-    // 4. Background Task: Append row to Google Sheets (Non-blocking)
-    // Runs asynchronously in background without delaying API response to user
-    appendEnquiryToSheets(newEnquiry).catch((err) => {
-      console.error("[Google Sheets Background Task Error]:", err);
-    });
+    // 4. Append row to Google Sheets (awaited to ensure instant real-time sync on Vercel)
+    try {
+      await appendEnquiryToSheets(newEnquiry);
+    } catch (err) {
+      console.error("[Google Sheets Sync Error]:", err);
+    }
 
     // 5. Instant HTTP Success Response
     return NextResponse.json(

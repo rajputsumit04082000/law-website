@@ -38,9 +38,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${playfair.variable} h-full antialiased scroll-smooth`}
+      className={`${inter.variable} ${playfair.variable} h-full antialiased scroll-smooth overflow-x-hidden max-w-full w-full`}
     >
-      <body suppressHydrationWarning className="min-h-full flex flex-col font-sans selection:bg-accent selection:text-white overflow-x-hidden">
+      <body suppressHydrationWarning className="min-h-full flex flex-col font-sans selection:bg-accent selection:text-white overflow-x-hidden max-w-full w-full">
         <DisclaimerModal />
         <StickyContactIcons />
         <Navbar />
