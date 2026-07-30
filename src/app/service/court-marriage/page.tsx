@@ -1,99 +1,108 @@
 import { Metadata } from "next";
+import { SidebarEnquiryForm } from "@/components/sections/SidebarEnquiryForm";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { MapPin, Phone, Mail } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Court Marriage Registration | Sandhya Gupta & Associates",
-  description: "Expert legal services for Court Marriage Registration in Delhi.",
+  title: "Court Marriage Lawyer in Meerut & NCR | Special Marriage Act Registration | Prime Legal Service",
+  description:
+    "Expert court marriage lawyers in Meerut, Ghaziabad, Noida & NCR. Prime Legal Service assists couples with court marriage registration under the Special Marriage Act, 1954, Arya Samaj marriage, marriage certificates, and inter-caste & inter-religion marriages with complete legal compliance across Uttar Pradesh and NCR.",
 };
 
 export default function Page() {
   return (
     <>
-      <PageHeader 
-        title="Court Marriage Registration" 
-        subtitle="Expert Legal Representation"
+      <PageHeader
+        title="Court Marriage Lawyer in Meerut & NCR"
+        subtitle="Hassle-Free Court Marriage Registration Under the Special Marriage Act, 1954"
       />
 
       <section className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
-            
+
             {/* Left Content Area */}
             <div className="lg:col-span-8">
               <div className="relative h-[220px] sm:h-[320px] md:h-[420px] lg:h-[450px] rounded-xl overflow-hidden mb-8">
-                <img 
-                  src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1200" 
-                  alt="Court Marriage Registration" 
+                <img
+                  src="/service/matrimonial.jpg"
+                  alt="Court Marriage Lawyer in Meerut NCR | Special Marriage Act | Prime Legal Service"
                   className="w-full h-full object-cover"
                 />
               </div>
 
-              <h2 className="font-heading text-2xl sm:text-3xl font-bold text-[#0b1120] mb-5">Court Marriage Registration</h2>
-              
+              <h2 className="font-heading text-2xl sm:text-3xl font-bold text-[#0b1120] mb-5">
+                Court Marriage Lawyer in Meerut & NCR – Simplified & Legal Marriage Registration
+              </h2>
+
               <div className="space-y-4 text-gray-700 leading-relaxed text-[14px] sm:text-[15px]">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <p>
+                  Court marriage is a legally recognised form of marriage solemnised under the <strong>Special Marriage Act, 1954</strong>, providing couples of any religion, caste, or nationality the right to marry with full legal validity. At <strong>Prime Legal Service</strong>, our experienced court marriage lawyers in Meerut and NCR guide couples through every step — from filing the notice of intended marriage to solemnisation before the Marriage Officer and obtaining the marriage certificate, covering Meerut, Ghaziabad, Noida, Hapur, and surrounding areas.
+                </p>
+
+                <p>
+                  Whether you are seeking an inter-caste marriage, inter-religion marriage, or a simple legal marriage registration in Meerut or any NCR district, we ensure a smooth, legally compliant process with minimal procedural hassle. We also assist with Arya Samaj marriages, Hindu Marriage Act registrations before the Sub-Divisional Magistrate (SDM), and obtaining certified copies of marriage certificates for use in India and abroad.
+                </p>
               </div>
 
               <h3 className="font-heading text-xl sm:text-2xl md:text-[28px] font-bold text-[#0b1120] mt-10 mb-4">
-                Our Court Marriage Registration Services
+                Our Court Marriage Legal Services in Meerut & NCR
               </h3>
-              
+
               <p className="text-gray-700 text-[14px] sm:text-[15px] leading-relaxed mb-4">
-                At Sandhya Gupta &amp; Associates, we offer expert legal assistance tailored to your needs. Our skilled lawyers are well-versed in the laws and provide comprehensive support throughout your case.
+                At <strong>Prime Legal Service</strong>, we provide comprehensive assistance for court marriages and marriage registrations across Meerut and NCR, ensuring every step is handled with legal accuracy and professional efficiency.
               </p>
-              
+
               <p className="text-gray-700 text-[14px] sm:text-[15px] leading-relaxed mb-4">Our services include:</p>
-              
+
               <ul className="list-disc pl-5 space-y-3 text-gray-700 text-[14px] sm:text-[15px] leading-relaxed">
-                <li><strong>Pre-litigation Services</strong> &ndash; Drafting comprehensive representations to be submitted before the concerned departments.</li>
-                <li><strong>Drafting and Filing Petitions</strong> &ndash; Preparing and filing service-related petitions and original applications before the court.</li>
-                <li><strong>Representation for Clients</strong> &ndash; Strategic argumentation and representation for various clients covered under the relevant laws.</li>
-                <li><strong>Appeals and Review Petitions</strong> &ndash; Filing appeals, review petitions, and execution of court orders.</li>
-                <li><strong>Alternative Dispute Resolution</strong> &ndash; Handling mediation and arbitration for out-of-court settlements.</li>
+                <li>
+                  <strong>Court Marriage under Special Marriage Act, 1954</strong> – Complete legal assistance for solemnising and registering marriages under the Special Marriage Act before the Marriage Officer in Meerut & NCR.
+                </li>
+                <li>
+                  <strong>Hindu Marriage Act Registration</strong> – Assistance with registration of marriages solemnised under the Hindu Marriage Act, 1955, before the Sub-Divisional Magistrate (SDM) in Meerut, Ghaziabad, and Noida.
+                </li>
+                <li>
+                  <strong>Arya Samaj Marriage</strong> – Legal guidance for Arya Samaj marriage ceremonies in Meerut and subsequent registration to obtain a legally valid marriage certificate.
+                </li>
+                <li>
+                  <strong>Inter-Caste & Inter-Religion Marriages</strong> – Dedicated legal support for couples from different castes or religions in Meerut & NCR, navigating societal and legal complexities in their marriage process.
+                </li>
+                <li>
+                  <strong>Marriage Certificate for Visa & Passport</strong> – Obtaining marriage certificates and apostille certification required for visa applications, passport name changes, and overseas use.
+                </li>
+                <li>
+                  <strong>Notice of Intended Marriage</strong> – Drafting and filing the statutory 30-day notice of intended marriage under the Special Marriage Act and professionally handling the objection period.
+                </li>
+                <li>
+                  <strong>Protection Petitions for Couples</strong> – Filing protection petitions before courts in Meerut and Allahabad High Court for inter-caste or inter-religion couples facing threats or harassment.
+                </li>
+              </ul>
+
+              <h3 className="font-heading text-xl sm:text-2xl md:text-[28px] font-bold text-[#0b1120] mt-10 mb-4">
+                Why Choose Prime Legal Service for Court Marriage in Meerut & NCR?
+              </h3>
+
+              <ul className="list-disc pl-5 space-y-3 text-gray-700 text-[14px] sm:text-[15px] leading-relaxed">
+                <li>Experienced court marriage advocates in Meerut with in-depth knowledge of the Special Marriage Act and all applicable marriage laws</li>
+                <li>Complete end-to-end assistance from document preparation to marriage certificate collection</li>
+                <li>Sensitive and confidential handling of inter-caste and inter-religion marriages across Meerut & NCR</li>
+                <li>Quick turnaround on marriage registration and certificate procurement</li>
+                <li>Assistance with apostille and attestation of marriage certificates for use abroad</li>
+                <li>Client-centred approach with transparent guidance and zero procedural surprises</li>
               </ul>
             </div>
 
             {/* Right Sidebar Area */}
-            <div className="lg:col-span-4 space-y-6 lg:space-y-8">
-              
-              {/* Contact Form */}
-              <div className="bg-[#f5f5f5] p-5 sm:p-8 rounded-xl">
-                <h3 className="font-heading text-lg sm:text-xl font-bold text-[#0b1120] mb-5">Get In Touch</h3>
-                <form className="space-y-3 sm:space-y-4">
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Your Name</label>
-                    <input type="text" placeholder="Enter your name" className="w-full h-10 sm:h-11 px-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52]" />
-                  </div>
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Your Email</label>
-                    <input type="email" placeholder="Enter your email" className="w-full h-10 sm:h-11 px-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52]" />
-                  </div>
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Your Phone Number</label>
-                    <input type="tel" placeholder="Enter your number" className="w-full h-10 sm:h-11 px-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52]" />
-                  </div>
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Subject</label>
-                    <input type="text" placeholder="Enter your subject" className="w-full h-10 sm:h-11 px-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52]" />
-                  </div>
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Query / Message</label>
-                    <textarea rows={4} placeholder="Write your message here..." className="w-full p-3 sm:p-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52] resize-none" />
-                  </div>
-                  <button type="button" className="w-full bg-[#a67c52] hover:bg-[#8B6914] text-white font-semibold py-3 rounded-md transition-colors flex items-center justify-center gap-2 mt-2">
-                    Send Message
-                  </button>
-                </form>
-              </div>
+            <div className="lg:col-span-4 space-y-6 lg:space-y-8">              {/* Contact Form */}
+              <SidebarEnquiryForm subject="Court Marriage" />
 
               {/* Need Help Box */}
               <div className="bg-[#071018] text-white p-5 sm:p-8 rounded-xl relative overflow-hidden">
-                <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=600")', backgroundSize: 'cover' }}></div>
+                <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'url("/images.jpg")', backgroundSize: 'cover' }}></div>
                 <div className="relative z-10">
-                  <h3 className="font-heading text-xl sm:text-2xl font-bold mb-2">Need any legal help?</h3>
-                  <p className="text-gray-400 text-sm mb-6 sm:mb-8">Call us 24/7 for legal support</p>
+                  <h3 className="font-heading text-xl sm:text-2xl font-bold mb-2">Need Court Marriage Help?</h3>
+                  <p className="text-gray-400 text-sm mb-6 sm:mb-8">Call us for quick & hassle-free assistance in Meerut & NCR</p>
                   <div className="space-y-4 sm:space-y-6">
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full flex items-center justify-center text-[#0b1120] flex-shrink-0">
@@ -110,7 +119,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Mail Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">lawyersandhya@gmail.com</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">info@primelegalservice.com</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -119,7 +128,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Our Location</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">Delhi</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">Meerut, Uttar Pradesh</p>
                       </div>
                     </div>
                   </div>

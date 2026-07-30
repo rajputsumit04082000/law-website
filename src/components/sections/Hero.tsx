@@ -8,9 +8,12 @@ import { AppointmentModal } from "@/components/modals/AppointmentModal";
 import Link from "next/link";
 
 const CAROUSEL_IMAGES = [
-  "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=2000",
-  "https://images.unsplash.com/photo-1505664173622-18115d1109a1?auto=format&fit=crop&q=80&w=2000",
-  "https://images.unsplash.com/photo-1575505586569-646b2ca898fc?auto=format&fit=crop&q=80&w=2000"
+  "/images.jpg",
+  "/images (1).jpg",
+  "/images (2).jpg",
+  "/images (3).jpg",
+  "/images (4).jpg",
+  "/images (5).jpg"
 ];
 
 export function Hero() {
@@ -72,7 +75,7 @@ export function Hero() {
             <span className="text-[#a67c52]">Legal Consultants</span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto leading-relaxed px-2">
-            Providing exceptional legal representation and strategic counsel to businesses and individuals worldwide.
+            Providing exceptional legal representation and strategic counsel to businesses and individuals.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button

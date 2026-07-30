@@ -33,7 +33,7 @@ export function AboutHero() {
 
             <div className="relative h-[320px] sm:h-[420px] lg:h-[580px] w-full rounded-3xl overflow-hidden shadow-2xl z-10">
               <Image
-                src="/advocate-portrait.png"
+                src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80&w=900"
                 alt="Senior Advocate – Prime Legal Service"
                 fill
                 className="object-cover object-top"

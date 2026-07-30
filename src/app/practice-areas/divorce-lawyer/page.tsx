@@ -1,125 +1,181 @@
 import { Metadata } from "next";
+import { SidebarEnquiryForm } from "@/components/sections/SidebarEnquiryForm";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { MapPin, Phone, Mail } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Divorce Lawyer in Delhi | Sandhya Gupta & Associates",
-  description: "Expert legal services for Divorce Lawyer in Delhi in Delhi.",
+  title: "Best Divorce Lawyer in Meerut & NCR | Prime Legal Service",
+  description:
+    "Prime Legal Service offers expert legal assistance for mutual consent divorce, contested divorce, child custody, alimony, and family disputes across Meerut, Ghaziabad, Noida, and Delhi NCR.",
 };
 
 export default function Page() {
   return (
     <>
-      <PageHeader 
-        title="Divorce Lawyer in Delhi" 
-        subtitle="Expert Legal Representation"
+      <PageHeader
+        title="Divorce Lawyer in Meerut & NCR"
+        subtitle="Trusted Legal Representation for Divorce, Child Custody & Family Matters"
       />
 
       <section className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
-            
+
             {/* Left Content Area */}
             <div className="lg:col-span-8">
               <div className="relative h-[220px] sm:h-[320px] md:h-[420px] lg:h-[450px] rounded-xl overflow-hidden mb-8">
-                <img 
-                  src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1200" 
-                  alt="Divorce Lawyer in Delhi" 
+                <img
+                  src="/service/divorce_lawyer.jpeg"
+                  alt="Best Divorce Lawyer in Meerut & NCR"
                   className="w-full h-full object-cover"
                 />
               </div>
 
-              <h2 className="font-heading text-2xl sm:text-3xl font-bold text-[#0b1120] mb-5">Divorce Lawyer in Delhi</h2>
-              
+              <h2 className="font-heading text-2xl sm:text-3xl font-bold text-[#0b1120] mb-5">
+                Divorce Lawyer in Meerut & NCR
+              </h2>
+
               <div className="space-y-4 text-gray-700 leading-relaxed text-[14px] sm:text-[15px]">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <p>
+                  Going through a divorce can be emotionally and legally
+                  challenging. At <strong>Prime Legal Service</strong>, we
+                  provide trusted legal guidance for individuals and families
+                  across Meerut, Ghaziabad, Noida, Delhi NCR, and nearby
+                  regions. Whether you are seeking a mutual consent divorce or
+                  facing a contested divorce, our experienced advocates are
+                  committed to protecting your rights while ensuring complete
+                  confidentiality throughout the legal process.
+                </p>
+
+                <p>
+                  Every family matter is unique and deserves a personalized
+                  legal approach. Our legal team provides comprehensive
+                  assistance for divorce, child custody, alimony, maintenance,
+                  domestic violence matters, and matrimonial disputes. From
+                  legal consultation and documentation to court representation
+                  and settlement negotiations, we work diligently to achieve the
+                  best possible outcome while making the legal process as smooth
+                  and transparent as possible.
+                </p>
               </div>
 
               <h3 className="font-heading text-xl sm:text-2xl md:text-[28px] font-bold text-[#0b1120] mt-10 mb-4">
-                Our Divorce Lawyer in Delhi Services
+                Our Divorce Legal Services
               </h3>
-              
+
               <p className="text-gray-700 text-[14px] sm:text-[15px] leading-relaxed mb-4">
-                At Sandhya Gupta &amp; Associates, we offer expert legal assistance tailored to your needs. Our skilled lawyers are well-versed in the laws and provide comprehensive support throughout your case.
+                At <strong>Prime Legal Service</strong>, we provide complete
+                legal assistance for all types of matrimonial and family law
+                matters. Our experienced divorce lawyers offer strategic legal
+                advice, transparent communication, and dedicated representation
+                tailored to your individual circumstances.
               </p>
-              
-              <p className="text-gray-700 text-[14px] sm:text-[15px] leading-relaxed mb-4">Our services include:</p>
-              
+
+              <p className="text-gray-700 text-[14px] sm:text-[15px] leading-relaxed mb-4">
+                Our services include:
+              </p>
+
               <ul className="list-disc pl-5 space-y-3 text-gray-700 text-[14px] sm:text-[15px] leading-relaxed">
-                <li><strong>Pre-litigation Services</strong> &ndash; Drafting comprehensive representations to be submitted before the concerned departments.</li>
-                <li><strong>Drafting and Filing Petitions</strong> &ndash; Preparing and filing service-related petitions and original applications before the court.</li>
-                <li><strong>Representation for Clients</strong> &ndash; Strategic argumentation and representation for various clients covered under the relevant laws.</li>
-                <li><strong>Appeals and Review Petitions</strong> &ndash; Filing appeals, review petitions, and execution of court orders.</li>
-                <li><strong>Alternative Dispute Resolution</strong> &ndash; Handling mediation and arbitration for out-of-court settlements.</li>
+                <li>
+                  <strong>Mutual Consent Divorce</strong> – Professional legal
+                  assistance for couples seeking a smooth, confidential, and
+                  legally compliant mutual consent divorce.
+                </li>
+
+                <li>
+                  <strong>Contested Divorce Cases</strong> – Strong legal
+                  representation in contested divorce proceedings involving
+                  disputes, evidence, and court hearings.
+                </li>
+
+                <li>
+                  <strong>Child Custody & Visitation Rights</strong> – Expert
+                  legal guidance for child custody, guardianship, visitation
+                  rights, and protecting the best interests of your child.
+                </li>
+
+                <li>
+                  <strong>Alimony & Maintenance</strong> – Assistance with
+                  interim maintenance, permanent alimony, spousal support, and
+                  financial settlements under applicable family laws.
+                </li>
+
+                <li>
+                  <strong>Mediation & Court Representation</strong> – Effective
+                  mediation, legal documentation, settlement negotiations, and
+                  strong representation before the Family Court whenever
+                  required.
+                </li>
               </ul>
             </div>
 
             {/* Right Sidebar Area */}
-            <div className="lg:col-span-4 space-y-6 lg:space-y-8">
-              
-              {/* Contact Form */}
-              <div className="bg-[#f5f5f5] p-5 sm:p-8 rounded-xl">
-                <h3 className="font-heading text-lg sm:text-xl font-bold text-[#0b1120] mb-5">Get In Touch</h3>
-                <form className="space-y-3 sm:space-y-4">
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Your Name</label>
-                    <input type="text" placeholder="Enter your name" className="w-full h-10 sm:h-11 px-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52]" />
-                  </div>
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Your Email</label>
-                    <input type="email" placeholder="Enter your email" className="w-full h-10 sm:h-11 px-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52]" />
-                  </div>
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Your Phone Number</label>
-                    <input type="tel" placeholder="Enter your number" className="w-full h-10 sm:h-11 px-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52]" />
-                  </div>
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Subject</label>
-                    <input type="text" placeholder="Enter your subject" className="w-full h-10 sm:h-11 px-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52]" />
-                  </div>
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Query / Message</label>
-                    <textarea rows={4} placeholder="Write your message here..." className="w-full p-3 sm:p-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52] resize-none" />
-                  </div>
-                  <button type="button" className="w-full bg-[#a67c52] hover:bg-[#8B6914] text-white font-semibold py-3 rounded-md transition-colors flex items-center justify-center gap-2 mt-2">
-                    Send Message
-                  </button>
-                </form>
-              </div>
+            <div className="lg:col-span-4 space-y-6 lg:space-y-8">              {/* Contact Form */}
+              <SidebarEnquiryForm subject="Divorce Lawyer" />
 
               {/* Need Help Box */}
               <div className="bg-[#071018] text-white p-5 sm:p-8 rounded-xl relative overflow-hidden">
-                <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=600")', backgroundSize: 'cover' }}></div>
+                <div
+                  className="absolute inset-0 opacity-10"
+                  style={{
+                    backgroundImage:
+                      'url("https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=600")',
+                    backgroundSize: "cover",
+                  }}
+                ></div>
+
                 <div className="relative z-10">
-                  <h3 className="font-heading text-xl sm:text-2xl font-bold mb-2">Need any legal help?</h3>
-                  <p className="text-gray-400 text-sm mb-6 sm:mb-8">Call us 24/7 for legal support</p>
+                  <h3 className="font-heading text-xl sm:text-2xl font-bold mb-2">
+                    Need Expert Legal Assistance?
+                  </h3>
+
+                  <p className="text-gray-400 text-sm mb-6 sm:mb-8">
+                    Speak with our experienced legal team today.
+                  </p>
+
                   <div className="space-y-4 sm:space-y-6">
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full flex items-center justify-center text-[#0b1120] flex-shrink-0">
                         <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
                       </div>
+
                       <div>
-                        <p className="font-semibold text-[14px] sm:text-[15px]">Call Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+919911077828</p>
+                        <p className="font-semibold text-[14px] sm:text-[15px]">
+                          Call Us
+                        </p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">
+                          +91 99110 77828
+                        </p>
                       </div>
                     </div>
+
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full flex items-center justify-center text-[#0b1120] flex-shrink-0">
                         <Mail className="w-4 h-4 sm:w-5 sm:h-5" />
                       </div>
+
                       <div>
-                        <p className="font-semibold text-[14px] sm:text-[15px]">Mail Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">lawyersandhya@gmail.com</p>
+                        <p className="font-semibold text-[14px] sm:text-[15px]">
+                          Mail Us
+                        </p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">
+                          info@primelegalservice.com
+                        </p>
                       </div>
                     </div>
+
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full flex items-center justify-center text-[#0b1120] flex-shrink-0">
                         <MapPin className="w-4 h-4 sm:w-5 sm:h-5" />
                       </div>
+
                       <div>
-                        <p className="font-semibold text-[14px] sm:text-[15px]">Our Location</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">Delhi</p>
+                        <p className="font-semibold text-[14px] sm:text-[15px]">
+                          Our Location
+                        </p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">
+                          Meerut, Uttar Pradesh
+                        </p>
                       </div>
                     </div>
                   </div>

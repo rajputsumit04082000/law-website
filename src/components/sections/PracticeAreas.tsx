@@ -54,7 +54,7 @@ export function PracticeAreas() {
             <CarouselContent className="-ml-6">
               {SITE_CONTENT.practiceAreas.map((area) => {
                 const Icon = Icons[area.icon as keyof typeof Icons] as React.ElementType;
-                const imageUrl = (area as any).image || "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=800";
+                const imageUrl = (area as any).image || "/images.jpg";
                 
                 return (
                   <CarouselItem key={area.id} className="pl-6 md:basis-1/2 lg:basis-1/3 xl:basis-1/4">

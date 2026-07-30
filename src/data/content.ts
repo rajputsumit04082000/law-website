@@ -19,97 +19,105 @@ export const SITE_CONTENT = {
       title: "Divorce Lawyer",
       description: "Top divorce law services in Delhi/NCR — expert support for contested and mutual divorce cases with trusted guidance.",
       icon: "Users",
-      image: "https://images.unsplash.com/photo-1575505586569-646b2ca898fc?auto=format&fit=crop&q=80&w=800"
+      image: "/service/divorce_lawyer.jpeg"
     },
     {
       id: "domestic-violence",
       title: "Domestic Violence Lawyer",
       description: "Experienced domestic violence lawyer in Delhi & NCR providing dedicated legal help to protect your rights and ensure your safety.",
       icon: "ShieldAlert",
-      image: "https://images.unsplash.com/photo-1590846083693-f23f77395eb9?auto=format&fit=crop&q=80&w=800"
+      image: "/service/domestic-violence.jpg"
     },
     {
       id: "matrimonial-lawyer",
       title: "Matrimonial Lawyer",
       description: "Trusted matrimonial lawyer specializing in divorce, alimony, and family disputes — protecting your interests with care and professionalism.",
       icon: "HeartHandshake",
-      image: "https://images.unsplash.com/photo-1605370211283-e18987b7aeb8?auto=format&fit=crop&q=80&w=800"
+      image: "/service/matrimonial.jpg"
     },
     {
       id: "family-disputes",
       title: "Family Disputes Lawyer",
       description: "Best family dispute lawyer in Delhi NCR dedicated to protecting your rights and achieving fair resolutions in family matters.",
       icon: "Scale",
-      image: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=800"
+      image: "/service/family.jpg"
     },
     {
-      id: "intellectual-property",
-      title: "Intellectual Property",
-      description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-      icon: "Lightbulb"
+      id: "criminal-lawyer",
+      title: "Criminal Lawyer",
+      description: "Robust defense representation for bail, trial, FIR quashing, and criminal proceedings across high courts and district courts.",
+      icon: "Gavel",
+      image: "/images (3).jpg"
     },
     {
-      id: "employment-law",
-      title: "Employment Law",
-      description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.",
-      icon: "Briefcase"
+      id: "civil-lawyer",
+      title: "Civil Litigation Lawyer",
+      description: "Strategic legal advice and representation for property disputes, recovery suits, injunctions, and contract enforcement.",
+      icon: "FileText",
+      image: "/service/civil.jpg"
     },
     {
-      id: "personal-injury",
-      title: "Personal Injury",
-      description: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-      icon: "Activity"
+      id: "cheque-bounce",
+      title: "Cheque Bounce (Sec 138)",
+      description: "Effective legal solutions for dishonored cheques, notice drafting, recovery suits, and Section 138 NI Act litigation.",
+      icon: "CreditCard",
+      image: "/images (1).jpg"
     },
     {
-      id: "tax-law",
-      title: "Tax Law",
-      description: "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
-      icon: "Calculator"
+      id: "supreme-court",
+      title: "Supreme Court Matters",
+      description: "Expert representation for Special Leave Petitions (SLP), writ petitions, and appeals in the Supreme Court of India.",
+      icon: "Landmark",
+      image: "/images (4).jpg"
     },
     {
-      id: "immigration-law",
-      title: "Immigration Law",
-      description: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-      icon: "Globe"
+      id: "corporate-lawyer",
+      title: "Corporate & Commercial Law",
+      description: "Comprehensive legal assistance for business compliance, contract drafting, corporate disputes, and regulatory matters.",
+      icon: "Briefcase",
+      image: "/service/corporate.jpg"
     },
     {
-      id: "bankruptcy",
-      title: "Bankruptcy",
-      description: "Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto.",
-      icon: "TrendingDown"
+      id: "property-lawyer",
+      title: "Property & Real Estate Law",
+      description: "Expert title verification, land disputes, property registration, and buyer protection under RERA regulations.",
+      icon: "Home",
+      image: "/images10.jpg"
     },
     {
-      id: "environmental-law",
-      title: "Environmental Law",
-      description: "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis.",
-      icon: "Leaf"
+      id: "cyber-law",
+      title: "Cyber Law & Digital Fraud",
+      description: "Dedicated assistance for financial cyber crime, online fraud, identity theft, and digital data privacy disputes.",
+      icon: "ShieldCheck",
+      image: "/images (2).jpg"
     },
     {
-      id: "healthcare-law",
-      title: "Healthcare Law",
-      description: "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et.",
-      icon: "Heart"
+      id: "rera-matters",
+      title: "RERA Matters & Builder Disputes",
+      description: "Protecting homebuyer rights against builder delay, non-possession, refund claims, and builder-buyer contract violations.",
+      icon: "Building",
+      image: "/tingey-injury-law-firm-L4YGuSg0fxs-unsplash.jpg"
     }
   ],
   whyChooseUs: [
     {
       title: "Unmatched Expertise",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.",
+      description: "Our experienced legal professionals provide strategic advice and effective representation across a wide range of legal matters, ensuring every case is handled with precision and confidence.",
       icon: "Award"
     },
     {
       title: "Client-Centric Approach",
-      description: "Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus.",
+      description: "We prioritize your needs by offering personalized legal solutions, clear communication, and dedicated support throughout every stage of your legal journey.",
       icon: "UserCheck"
     },
     {
       title: "Proven Track Record",
-      description: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis.",
+      description: "Our firm has successfully represented individuals and businesses, earning a reputation for achieving practical, result-driven legal solutions.",
       icon: "TrendingUp"
     },
     {
       title: "Transparent Fees",
-      description: "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet.",
+      description: "We believe in honest pricing with no hidden costs. Our clear fee structure ensures complete transparency and peace of mind before we begin.",
       icon: "DollarSign"
     }
   ],
@@ -172,23 +180,72 @@ export const SITE_CONTENT = {
   testimonials: [
     {
       id: 1,
-      name: "Michael Brown",
-      role: "CEO, Tech Corp",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      name: "Rahul Sharma",
+      role: "Business Owner",
+      content: "The legal team handled our commercial dispute with exceptional professionalism. Their clear communication and strategic approach made the entire process stress-free.",
       rating: 5
     },
     {
       id: 2,
-      name: "Sarah Wilson",
-      role: "Small Business Owner",
-      content: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      name: "Priya Verma",
+      role: "Private Client",
+      content: "I received excellent guidance throughout my family matter. Every step was explained clearly, and I always felt confident in their legal advice.",
       rating: 5
     },
     {
       id: 3,
-      name: "David Martinez",
+      name: "Amit Gupta",
+      role: "Entrepreneur",
+      content: "Their expertise in corporate legal matters helped us resolve a complex issue efficiently. Highly professional, responsive, and reliable throughout.",
+      rating: 5
+    },
+    {
+      id: 4,
+      name: "Neha Kapoor",
+      role: "HR Manager",
+      content: "The employment law consultation was practical and well-structured. Their attention to detail and prompt support exceeded our expectations.",
+      rating: 5
+    },
+    {
+      id: 5,
+      name: "Rohit Mehta",
+      role: "Property Investor",
+      content: "They managed my property documentation and legal verification with complete transparency. The process was smooth from start to finish.",
+      rating: 5
+    },
+    {
+      id: 6,
+      name: "Sneha Iyer",
       role: "Private Client",
-      content: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.",
+      content: "Professional, approachable, and highly knowledgeable. Their legal guidance helped me resolve my case with confidence and peace of mind.",
+      rating: 5
+    },
+    {
+      id: 7,
+      name: "Vikram Singh",
+      role: "Business Consultant",
+      content: "From consultation to resolution, the entire experience was outstanding. Their legal expertise and commitment truly set them apart.",
+      rating: 5
+    },
+    {
+      id: 8,
+      name: "Anjali Nair",
+      role: "Working Professional",
+      content: "I appreciated their honest advice and timely communication. Every legal concern was addressed with professionalism and genuine care.",
+      rating: 5
+    },
+    {
+      id: 9,
+      name: "Karan Malhotra",
+      role: "Startup Founder",
+      content: "Excellent legal support for our business agreements and compliance requirements. The team was responsive, knowledgeable, and dependable.",
+      rating: 5
+    },
+    {
+      id: 10,
+      name: "Pooja Khanna",
+      role: "Private Client",
+      content: "Their dedication, transparency, and legal expertise made a difficult situation much easier to handle. I would confidently recommend their services.",
       rating: 5
     }
   ],

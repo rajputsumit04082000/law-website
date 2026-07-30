@@ -40,7 +40,7 @@ export function PhilosophySection() {
             <div className="absolute -top-4 -left-4 w-full h-full border-2 border-[#D4AF37]/30 rounded-2xl z-0" />
             <div className="relative h-[440px] w-full rounded-2xl overflow-hidden shadow-xl z-10">
               <Image
-                src="https://images.unsplash.com/photo-1555374018-13a8994ab246?auto=format&fit=crop&q=80&w=900"
+                src="/images10.jpg"
                 alt="Supreme Court of India – Philosophy of Justice"
                 fill
                 className="object-cover"
@@ -65,9 +65,9 @@ export function PhilosophySection() {
             <div className="w-16 h-1 bg-[#D4AF37] rounded-full mb-7" />
 
             <p className="text-gray-600 text-[15px] leading-relaxed mb-6 text-justify">
-              At <strong className="text-[#0b1120]">Prime Legal Service</strong>, our philosophy is simple — 
-              client-first, always. We believe that effective legal representation is not just about winning 
-              cases; it&apos;s about protecting rights, preserving dignity, and empowering clients to make 
+              At <strong className="text-[#0b1120]">Prime Legal Service</strong>, our philosophy is simple —
+              client-first, always. We believe that effective legal representation is not just about winning
+              cases; it&apos;s about protecting rights, preserving dignity, and empowering clients to make
               informed decisions.
             </p>
 
@@ -96,7 +96,7 @@ export function PhilosophySection() {
             </ul>
 
             <p className="text-gray-600 text-[15px] leading-relaxed text-justify">
-              We see ourselves not just as lawyers, but as strategic partners in our clients&apos; legal 
+              We see ourselves not just as lawyers, but as strategic partners in our clients&apos; legal
               journey — offering guidance, foresight, and a relentless drive for success.
             </p>
           </motion.div>

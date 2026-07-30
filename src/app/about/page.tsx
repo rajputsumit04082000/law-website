@@ -22,7 +22,7 @@ export default function AboutPage() {
       <PageHeader
         title="About Our Firm"
         subtitle="A Legacy of Excellence"
-        image="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=2000"
+        image="/images.jpg"
       />
 
       {/* 2. About section — image + text + credentials */}

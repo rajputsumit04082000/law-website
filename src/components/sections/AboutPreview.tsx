@@ -7,10 +7,10 @@ import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const bulletPoints = [
-  "Award-winning legal representation",
-  "Dedicated and personalized approach",
-  "Deep understanding of complex laws",
-  "Commitment to client success",
+  "Experienced & Dedicated Legal Professionals",
+  "Personalized and confidential service tailored to your needs",
+  "Transparent Communication & Honest Advice",
+  "Proven Track Record of Success in Various Legal Fields",
 ];
 
 export function AboutPreview() {
@@ -28,24 +28,24 @@ export function AboutPreview() {
           >
             <div className="relative h-[280px] sm:h-[400px] lg:h-[600px] w-full rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1000"
+                src="/tingey-injury-law-firm-L4YGuSg0fxs-unsplash.jpg"
                 alt="Law firm office"
                 fill
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-primary/10" />
             </div>
-            
+
             {/* Experience Badge */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.4, duration: 0.6 }}
               className="absolute -bottom-8 -right-8 bg-primary text-white p-8 rounded-2xl shadow-xl hidden md:block"
             >
-              <div className="text-5xl font-bold text-accent mb-2">25+</div>
-              <div className="text-lg font-medium">Years of Legal<br/>Excellence</div>
+              <div className="text-5xl font-bold text-accent mb-2">16+</div>
+              <div className="text-lg font-medium">Years of Legal<br />Excellence</div>
             </motion.div>
           </motion.div>
 
@@ -56,24 +56,24 @@ export function AboutPreview() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <SectionHeading 
-              title="A Legacy of Excellence & Integrity" 
-              subtitle="About Our Firm" 
-              centered={false} 
+            <SectionHeading
+              title="A Legacy of Excellence & Integrity"
+              subtitle="About Our Firm"
+              centered={false}
             />
-            
+
             <div className="space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                With years of legal experience, we provide strategic, practical, and result-oriented legal solutions for individuals, businesses, and organizations. Our commitment is to protect your rights, simplify complex legal matters, and deliver professional representation with complete transparency and dedication.
               </p>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Every case is unique, and we believe in offering personalized legal guidance tailored to each client's specific needs. From consultation to courtroom representation, our focus remains on achieving the best possible outcome while maintaining the highest ethical standards.
               </p>
             </div>
 
             <ul className="space-y-4 mb-10">
               {bulletPoints.map((point, index) => (
-                <motion.li 
+                <motion.li
                   key={index}
                   initial={{ opacity: 0, x: 20 }}
                   whileInView={{ opacity: 1, x: 0 }}

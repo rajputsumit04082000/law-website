@@ -30,7 +30,7 @@ export function Footer() {
             </div>
 
             <p className="text-[#d1d5db] text-[13px] leading-relaxed">
-              At ABC and Associates, we are more than just a law firm – we are your trusted legal partners, dedicated to guiding you through the complexities of law with clarity, compassion, and expertise.
+              At Prime Legal Service, we are more than just a law firm – we are your trusted legal partners, dedicated to guiding you through the complexities of law with clarity, compassion, and expertise.
             </p>
 
             <div>
@@ -130,7 +130,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-[12px] text-[#d1d5db] relative">
           <p className="text-center sm:text-left">
-            @2009-2025 All Rights Reserved <span className="font-bold text-white">Advocate Sandhya Gupta</span>
+            @2009-2026 All Rights Reserved <span className="font-bold text-white">Prime Legal Service</span>
           </p>
           <button
             onClick={scrollToTop}

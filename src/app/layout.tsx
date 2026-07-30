@@ -40,7 +40,7 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${playfair.variable} h-full antialiased scroll-smooth`}
     >
-      <body className="min-h-full flex flex-col font-sans selection:bg-accent selection:text-white overflow-x-hidden">
+      <body suppressHydrationWarning className="min-h-full flex flex-col font-sans selection:bg-accent selection:text-white overflow-x-hidden">
         <DisclaimerModal />
         <StickyContactIcons />
         <Navbar />

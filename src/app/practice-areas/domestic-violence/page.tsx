@@ -1,99 +1,118 @@
 import { Metadata } from "next";
+import { SidebarEnquiryForm } from "@/components/sections/SidebarEnquiryForm";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { MapPin, Phone, Mail } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Domestic Violence Lawyer | Sandhya Gupta & Associates",
-  description: "Expert legal services for Domestic Violence Lawyer in Delhi.",
+  title: "Best Domestic Violence Lawyer in Meerut & NCR | Prime Legal Service",
+  description:
+    "Prime Legal Service provides trusted legal assistance for domestic violence cases, protection orders, maintenance, residence rights, and legal representation across Meerut, Ghaziabad, Noida, and Delhi NCR.",
 };
 
 export default function Page() {
   return (
     <>
-      <PageHeader 
-        title="Domestic Violence Lawyer" 
-        subtitle="Expert Legal Representation"
+      <PageHeader
+        title="Domestic Violence Lawyer in Meerut & NCR"
+        subtitle="Compassionate Legal Support to Protect Your Rights"
       />
 
       <section className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
-            
+
             {/* Left Content Area */}
             <div className="lg:col-span-8">
               <div className="relative h-[220px] sm:h-[320px] md:h-[420px] lg:h-[450px] rounded-xl overflow-hidden mb-8">
-                <img 
-                  src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1200" 
-                  alt="Domestic Violence Lawyer" 
+                <img
+                  src="/service/domestic-violence.jpg"
+                  alt="Best Domestic Violence Lawyer in Meerut & NCR"
                   className="w-full h-full object-cover"
                 />
               </div>
 
-              <h2 className="font-heading text-2xl sm:text-3xl font-bold text-[#0b1120] mb-5">Domestic Violence Lawyer</h2>
-              
+              <h2 className="font-heading text-2xl sm:text-3xl font-bold text-[#0b1120] mb-5">
+                Domestic Violence Lawyer in Meerut & NCR
+              </h2>
+
               <div className="space-y-4 text-gray-700 leading-relaxed text-[14px] sm:text-[15px]">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <p>
+                  Domestic violence can have serious emotional, physical, and financial
+                  consequences. At <strong>Prime Legal Service</strong>, we provide
+                  compassionate and confidential legal assistance for individuals seeking
+                  protection under the applicable laws. Our experienced lawyers assist
+                  clients across Meerut, Ghaziabad, Noida, Delhi NCR, and nearby regions,
+                  ensuring every matter is handled with sensitivity, professionalism, and
+                  respect.
+                </p>
+
+                <p>
+                  Whether you require legal advice, protection orders, residence rights,
+                  maintenance claims, or representation before the court, our legal team is
+                  committed to protecting your rights at every stage. We provide practical
+                  legal solutions tailored to your situation while helping you understand
+                  your legal options and confidently move forward.
+                </p>
               </div>
 
               <h3 className="font-heading text-xl sm:text-2xl md:text-[28px] font-bold text-[#0b1120] mt-10 mb-4">
-                Our Domestic Violence Lawyer Services
+                Our Domestic Violence Legal Services
               </h3>
-              
+
               <p className="text-gray-700 text-[14px] sm:text-[15px] leading-relaxed mb-4">
-                At Sandhya Gupta &amp; Associates, we offer expert legal assistance tailored to your needs. Our skilled lawyers are well-versed in the laws and provide comprehensive support throughout your case.
+                At <strong>Prime Legal Service</strong>, we offer comprehensive legal
+                assistance for domestic violence matters with complete confidentiality and
+                professional representation. Our lawyers work diligently to protect your
+                legal rights and guide you throughout the legal process.
               </p>
-              
-              <p className="text-gray-700 text-[14px] sm:text-[15px] leading-relaxed mb-4">Our services include:</p>
-              
+
+              <p className="text-gray-700 text-[14px] sm:text-[15px] leading-relaxed mb-4">
+                Our services include:
+              </p>
+
               <ul className="list-disc pl-5 space-y-3 text-gray-700 text-[14px] sm:text-[15px] leading-relaxed">
-                <li><strong>Pre-litigation Services</strong> &ndash; Drafting comprehensive representations to be submitted before the concerned departments.</li>
-                <li><strong>Drafting and Filing Petitions</strong> &ndash; Preparing and filing service-related petitions and original applications before the court.</li>
-                <li><strong>Representation for Clients</strong> &ndash; Strategic argumentation and representation for various clients covered under the relevant laws.</li>
-                <li><strong>Appeals and Review Petitions</strong> &ndash; Filing appeals, review petitions, and execution of court orders.</li>
-                <li><strong>Alternative Dispute Resolution</strong> &ndash; Handling mediation and arbitration for out-of-court settlements.</li>
+                <li>
+                  <strong>Legal Consultation</strong> – Confidential legal advice to help
+                  you understand your rights, available legal remedies, and the appropriate
+                  course of action.
+                </li>
+
+                <li>
+                  <strong>Protection Orders</strong> – Assistance in obtaining protection,
+                  residence, and other reliefs available under applicable domestic violence
+                  laws.
+                </li>
+
+                <li>
+                  <strong>Maintenance & Financial Relief</strong> – Legal representation for
+                  maintenance, monetary relief, and financial support claims before the
+                  competent court.
+                </li>
+
+                <li>
+                  <strong>Court Representation</strong> – Strong representation before the
+                  appropriate courts with complete legal documentation and effective
+                  advocacy.
+                </li>
+
+                <li>
+                  <strong>Mediation & Legal Guidance</strong> – Professional guidance for
+                  settlement discussions, mediation, and legal support while safeguarding
+                  your interests.
+                </li>
               </ul>
             </div>
 
             {/* Right Sidebar Area */}
-            <div className="lg:col-span-4 space-y-6 lg:space-y-8">
-              
-              {/* Contact Form */}
-              <div className="bg-[#f5f5f5] p-5 sm:p-8 rounded-xl">
-                <h3 className="font-heading text-lg sm:text-xl font-bold text-[#0b1120] mb-5">Get In Touch</h3>
-                <form className="space-y-3 sm:space-y-4">
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Your Name</label>
-                    <input type="text" placeholder="Enter your name" className="w-full h-10 sm:h-11 px-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52]" />
-                  </div>
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Your Email</label>
-                    <input type="email" placeholder="Enter your email" className="w-full h-10 sm:h-11 px-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52]" />
-                  </div>
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Your Phone Number</label>
-                    <input type="tel" placeholder="Enter your number" className="w-full h-10 sm:h-11 px-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52]" />
-                  </div>
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Subject</label>
-                    <input type="text" placeholder="Enter your subject" className="w-full h-10 sm:h-11 px-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52]" />
-                  </div>
-                  <div className="space-y-1">
-                    <label className="text-[12px] sm:text-[13px] font-semibold text-gray-700">Query / Message</label>
-                    <textarea rows={4} placeholder="Write your message here..." className="w-full p-3 sm:p-4 rounded-md border border-gray-300 bg-transparent text-[13px] sm:text-[14px] outline-none focus:border-[#a67c52] resize-none" />
-                  </div>
-                  <button type="button" className="w-full bg-[#a67c52] hover:bg-[#8B6914] text-white font-semibold py-3 rounded-md transition-colors flex items-center justify-center gap-2 mt-2">
-                    Send Message
-                  </button>
-                </form>
-              </div>
+            <div className="lg:col-span-4 space-y-6 lg:space-y-8">              {/* Contact Form */}
+              <SidebarEnquiryForm subject="Domestic Violence" />
 
               {/* Need Help Box */}
               <div className="bg-[#071018] text-white p-5 sm:p-8 rounded-xl relative overflow-hidden">
                 <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=600")', backgroundSize: 'cover' }}></div>
                 <div className="relative z-10">
-                  <h3 className="font-heading text-xl sm:text-2xl font-bold mb-2">Need any legal help?</h3>
-                  <p className="text-gray-400 text-sm mb-6 sm:mb-8">Call us 24/7 for legal support</p>
+                  <h3 className="font-heading text-xl sm:text-2xl font-bold mb-2">Need Expert Legal Assistance?</h3>
+                  <p className="text-gray-400 text-sm mb-6 sm:mb-8">Speak with our experienced legal team today.</p>
                   <div className="space-y-4 sm:space-y-6">
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full flex items-center justify-center text-[#0b1120] flex-shrink-0">
@@ -110,7 +129,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Mail Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">lawyersandhya@gmail.com</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">info@primelegalservice.com</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -119,7 +138,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Our Location</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">Delhi</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">Meerut, Uttar Pradesh</p>
                       </div>
                     </div>
                   </div>
