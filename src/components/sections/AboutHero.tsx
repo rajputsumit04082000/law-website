@@ -9,7 +9,7 @@ import { SITE_CONTENT } from "@/data/content";
 
 const highlights = [
   "15+ Years of Dedicated Legal Practice",
-  "Trusted by 3000+ Clients Across Delhi NCR",
+  "Trusted by 3000+ Clients Across Meerut",
   "Specialist in Family, Matrimonial & Criminal Law",
   "Empathetic Approach with Fierce Representation",
 ];
@@ -85,7 +85,7 @@ export function AboutHero() {
 
             <div className="space-y-5 text-[15px] text-gray-600 leading-relaxed mb-8 text-justify">
               <p>
-                <strong className="text-[#0b1120]">Prime Legal Service</strong> is a premier law firm based in Delhi NCR, 
+                <strong className="text-[#0b1120]">Prime Legal Service</strong> is a premier law firm based in Meerut, 
                 led by a team of seasoned advocates with decades of combined experience. We specialize in 
                 family law, matrimonial disputes, divorce, child custody, domestic violence, and criminal defense.
               </p>

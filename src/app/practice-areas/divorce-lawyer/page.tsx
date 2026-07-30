@@ -6,7 +6,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "Best Divorce Lawyer in Meerut & NCR | Prime Legal Service",
   description:
-    "Prime Legal Service offers expert legal assistance for mutual consent divorce, contested divorce, child custody, alimony, and family disputes across Meerut, Ghaziabad, Noida, and Delhi NCR.",
+    "Prime Legal Service offers expert legal assistance for mutual consent divorce, contested divorce, child custody, alimony, and family disputes across Meerut, Ghaziabad, Noida, and Meerut.",
 };
 
 export default function Page() {
@@ -40,7 +40,7 @@ export default function Page() {
                   Going through a divorce can be emotionally and legally
                   challenging. At <strong>Prime Legal Service</strong>, we
                   provide trusted legal guidance for individuals and families
-                  across Meerut, Ghaziabad, Noida, Delhi NCR, and nearby
+                  across Meerut, Ghaziabad, Noida, Meerut, and nearby
                   regions. Whether you are seeking a mutual consent divorce or
                   facing a contested divorce, our experienced advocates are
                   committed to protecting your rights while ensuring complete
@@ -159,7 +159,7 @@ export default function Page() {
                           Mail Us
                         </p>
                         <p className="text-gray-300 text-[13px] sm:text-[14px]">
-                          info@primelegalservice.com
+                          abhinavpradhan748@gmail.com
                         </p>
                       </div>
                     </div>

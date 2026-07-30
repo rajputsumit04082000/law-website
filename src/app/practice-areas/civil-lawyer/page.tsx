@@ -6,7 +6,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "Civil Lawyer in Meerut | Civil Litigation Lawyer | Prime Legal Service",
   description:
-    "Prime Legal Service provides experienced civil lawyers in Meerut, Ghaziabad, Noida, Delhi NCR, and nearby regions. Expert legal assistance for property disputes, recovery suits, injunctions, partition suits, civil litigation, and legal notices.",
+    "Prime Legal Service provides experienced civil lawyers in Meerut, Ghaziabad, Noida, Meerut, and nearby regions. Expert legal assistance for property disputes, recovery suits, injunctions, partition suits, civil litigation, and legal notices.",
 };
 
 export default function Page() {
@@ -39,7 +39,7 @@ export default function Page() {
                 <p>
                   <strong>Prime Legal Service</strong> provides reliable civil legal services for individuals,
                   families, businesses, and property owners across Meerut, Ghaziabad, Noida,
-                  Delhi NCR, and nearby regions. Our experienced civil lawyers handle a wide
+                  Meerut, and nearby regions. Our experienced civil lawyers handle a wide
                   range of civil matters including property disputes, recovery suits,
                   partition cases, injunctions, contract disputes, landlord-tenant matters,
                   and civil litigation. We focus on protecting your legal rights through
@@ -119,7 +119,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Call Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+919911077828</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+917417617432</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -128,7 +128,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Mail Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">info@primelegalservice.com</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">abhinavpradhan748@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">

@@ -41,7 +41,7 @@ export default function Page() {
                   requiring experienced legal guidance to protect your rights and interests.
                   At <strong>Prime Legal Service</strong>, we provide comprehensive legal
                   support for family disputes across Meerut, Ghaziabad, Noida, Greater
-                  Noida, and Delhi NCR. Our experienced family dispute lawyers assist
+                  Noida, and Meerut. Our experienced family dispute lawyers assist
                   clients with matters involving family property, inheritance, partition,
                   guardianship, child custody, maintenance, succession, and other family
                   law issues. Every matter is handled with professionalism, discretion, and
@@ -125,7 +125,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Call Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+919911077828</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+917417617432</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -134,7 +134,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Mail Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">info@primelegalservice.com</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">abhinavpradhan748@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">

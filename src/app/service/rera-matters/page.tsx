@@ -6,7 +6,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "RERA Lawyer in Meerut & NCR | Real Estate Regulatory Authority Complaints | Prime Legal Service",
   description:
-    "Expert RERA lawyers in Meerut, Ghaziabad, Noida & NCR for homebuyer complaints against builders, delayed possession, refund claims, interest on delay, and appeals before the UP RERA Appellate Tribunal. Prime Legal Service provides dedicated RERA legal representation across Meerut and Delhi NCR.",
+    "Expert RERA lawyers in Meerut, Ghaziabad, Noida & NCR for homebuyer complaints against builders, delayed possession, refund claims, interest on delay, and appeals before the UP RERA Appellate Tribunal. Prime Legal Service provides dedicated RERA legal representation across Meerut and Meerut.",
 };
 
 export default function Page() {
@@ -110,7 +110,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Call Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+919911077828</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+917417617432</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -119,7 +119,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Mail Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">info@primelegalservice.com</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">abhinavpradhan748@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">

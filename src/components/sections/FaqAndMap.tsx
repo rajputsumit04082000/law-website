@@ -72,21 +72,21 @@ export function FaqAndMap() {
             {/* Map stretches to fill remaining space */}
             <div className="relative rounded-2xl overflow-hidden shadow-lg group flex-1 min-h-[300px]">
               <a
-                href="https://www.google.com/maps/place/Sincere+Tower,+Preet+Vihar,+Delhi-110092"
+                href="https://www.google.com/maps/search/Uday+Vihar+B177+Uday+City+Meerut+Uttar+Pradesh+250110"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block relative w-full h-full"
                 aria-label="Open office location in Google Maps"
               >
                 <iframe
-                  src="https://maps.google.com/maps?q=Sincere+Tower+Preet+Vihar+Delhi+110092&output=embed&z=15"
+                  src="https://maps.google.com/maps?q=Uday+Vihar+B177+Uday+City+Meerut+Uttar+Pradesh+250110&output=embed&z=15"
                   width="100%"
                   height="100%"
                   style={{ border: 0, display: "block", minHeight: "300px" }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Prime Legal Service – Preet Vihar Office"
+                  title="Prime Legal Service – Meerut Office"
                   className="pointer-events-none w-full h-full absolute inset-0"
                 />
                 {/* Hover overlay */}
@@ -104,10 +104,9 @@ export function FaqAndMap() {
               <MapPin className="w-5 h-5 text-[#a67c52] shrink-0 mt-0.5" />
               <p className="text-[13px] text-gray-600 leading-snug">
                 <strong className="text-[#0b1120] font-semibold block mb-0.5">
-                  Main Office — Preet Vihar
+                  Main Office — Meerut
                 </strong>
-                201-202, Sincere Tower, 2nd Floor, Commercial Complex,
-                Preet Vihar, Near Petrol Pump, Delhi-110092
+                Uday Vihar, B177, Uday City, Meerut, Uttar Pradesh 250110
               </p>
             </div>
           </motion.div>

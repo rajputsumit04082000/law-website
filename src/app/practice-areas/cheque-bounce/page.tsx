@@ -50,7 +50,7 @@ export default function Page() {
               </h3>
               
               <p className="text-gray-700 text-[14px] sm:text-[15px] leading-relaxed mb-4">
-                At <strong>Prime Legal Service</strong>, we provide comprehensive legal support for cheque dishonour disputes across Meerut and Delhi NCR. From issuing statutory demand notices to representing clients before court, our experienced advocates ensure every matter is handled with precision and a strong legal strategy.
+                At <strong>Prime Legal Service</strong>, we provide comprehensive legal support for cheque dishonour disputes across Meerut and Meerut. From issuing statutory demand notices to representing clients before court, our experienced advocates ensure every matter is handled with precision and a strong legal strategy.
               </p>
               
               <p className="text-gray-700 text-[14px] sm:text-[15px] leading-relaxed mb-4">
@@ -103,7 +103,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Call Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+919911077828</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+917417617432</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -112,7 +112,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Mail Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">info@primelegalservice.com</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">abhinavpradhan748@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">

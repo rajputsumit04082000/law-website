@@ -6,7 +6,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "Best Domestic Violence Lawyer in Meerut & NCR | Prime Legal Service",
   description:
-    "Prime Legal Service provides trusted legal assistance for domestic violence cases, protection orders, maintenance, residence rights, and legal representation across Meerut, Ghaziabad, Noida, and Delhi NCR.",
+    "Prime Legal Service provides trusted legal assistance for domestic violence cases, protection orders, maintenance, residence rights, and legal representation across Meerut, Ghaziabad, Noida, and Meerut.",
 };
 
 export default function Page() {
@@ -41,7 +41,7 @@ export default function Page() {
                   consequences. At <strong>Prime Legal Service</strong>, we provide
                   compassionate and confidential legal assistance for individuals seeking
                   protection under the applicable laws. Our experienced lawyers assist
-                  clients across Meerut, Ghaziabad, Noida, Delhi NCR, and nearby regions,
+                  clients across Meerut, Ghaziabad, Noida, Meerut, and nearby regions,
                   ensuring every matter is handled with sensitivity, professionalism, and
                   respect.
                 </p>
@@ -120,7 +120,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Call Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+919911077828</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+917417617432</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -129,7 +129,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Mail Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">info@primelegalservice.com</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">abhinavpradhan748@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">

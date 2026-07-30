@@ -6,20 +6,12 @@ import { SITE_CONTENT } from "@/data/content";
 
 const locations = [
   {
-    title: "Preet Vihar Address",
-    address: "201-202, Sincere Tower, 2nd Floor, Commercial Complex, Preet Vihar, Near Petrol Pump, Delhi-110092",
+    title: "Main Office Meerut",
+    address: "Uday Vihar, B177, Uday City, Meerut, Uttar Pradesh 250110",
   },
   {
-    title: "Karkardooma Address",
-    address: "G-401 Lawyers Chambers, Karkardooma Court, Delhi-110032",
-  },
-  {
-    title: "Supreme Court",
-    address: "23, Lawyers Chamber, Supreme Court of India, New Delhi-110001",
-  },
-  {
-    title: "Tis Hazaari",
-    address: "Chamber No. 189, Tis Hazaari Court, Delhi-110054.",
+    title: "Chamber & Legal Consultation",
+    address: "Prime Legal Service Chambers, Meerut, Uttar Pradesh 250110",
   },
 ];
 
@@ -65,8 +57,8 @@ export function OfficeLocations() {
           </h2>
         </motion.div>
 
-        {/* Location cards — 4 columns */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-6">
+        {/* Location cards — 2 columns */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-6 max-w-4xl mx-auto">
           {locations.map((loc, index) => (
             <motion.div
               key={index}

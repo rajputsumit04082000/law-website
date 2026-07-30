@@ -6,7 +6,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "Bail Matters Lawyer in Meerut & NCR | Anticipatory Bail | Prime Legal Service",
   description:
-    "Need urgent bail assistance? Prime Legal Service provides expert legal representation for anticipatory bail, regular bail, interim bail, and bail cancellation matters across Meerut, Ghaziabad, Noida, and Delhi NCR.",
+    "Need urgent bail assistance? Prime Legal Service provides expert legal representation for anticipatory bail, regular bail, interim bail, and bail cancellation matters across Meerut, Ghaziabad, Noida, and Meerut.",
 };
 
 export default function Page() {
@@ -41,7 +41,7 @@ export default function Page() {
                 </p>
 
                 <p>
-                  Our legal team understands the urgency of bail proceedings and works with diligence to file applications promptly, present compelling arguments, and secure the best possible relief for our clients. We represent individuals in all types of criminal matters including FIRs under the Bharatiya Nyaya Sanhita (BNS), NDPS Act, Prevention of Corruption Act, cyber crimes, cheque bounce cases, and other serious offences across Meerut and Delhi NCR.
+                  Our legal team understands the urgency of bail proceedings and works with diligence to file applications promptly, present compelling arguments, and secure the best possible relief for our clients. We represent individuals in all types of criminal matters including FIRs under the Bharatiya Nyaya Sanhita (BNS), NDPS Act, Prevention of Corruption Act, cyber crimes, cheque bounce cases, and other serious offences across Meerut and Meerut.
                 </p>
               </div>
 
@@ -81,7 +81,7 @@ export default function Page() {
               </h3>
 
               <ul className="list-disc pl-5 space-y-3 text-gray-700 text-[14px] sm:text-[15px] leading-relaxed">
-                <li>Experienced advocates with a strong track record in bail proceedings across Meerut and Delhi NCR</li>
+                <li>Experienced advocates with a strong track record in bail proceedings across Meerut and Meerut</li>
                 <li>24/7 availability for urgent bail matters and police custody situations</li>
                 <li>Thorough knowledge of the Bharatiya Nagarik Suraksha Sanhita (BNSS) and relevant criminal laws</li>
                 <li>Strategic preparation of bail applications with compelling legal arguments</li>
@@ -107,7 +107,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Call Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+919911077828</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+917417617432</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -116,7 +116,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Mail Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">info@primelegalservice.com</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">abhinavpradhan748@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">

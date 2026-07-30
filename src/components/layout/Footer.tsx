@@ -89,38 +89,25 @@ export function Footer() {
                 <div className="w-7 h-7 rounded-full bg-white shrink-0 flex items-center justify-center mt-0.5">
                   <Phone className="w-3.5 h-3.5 text-[#051915]" />
                 </div>
-                <span className="text-[#d1d5db] text-[13px] mt-1">+919911077828</span>
+                <a href={`tel:${SITE_CONTENT.company.phone.replace(/[\s-]/g, '')}`} className="text-[#d1d5db] hover:text-white text-[13px] mt-1 transition-colors">
+                  {SITE_CONTENT.company.phone}
+                </a>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-7 h-7 rounded-full bg-white shrink-0 flex items-center justify-center mt-0.5">
                   <Mail className="w-3.5 h-3.5 text-[#051915]" />
                 </div>
-                <span className="text-[#d1d5db] text-[13px] mt-1">ABC@gmail.com</span>
-              </li>
-
-              <li className="flex items-start space-x-3">
-                <div className="w-7 h-7 rounded-full bg-white shrink-0 flex items-center justify-center mt-1">
-                  <MapPin className="w-3.5 h-3.5 text-[#051915]" />
-                </div>
-                <span className="text-[#d1d5db] text-[13px] leading-relaxed">201-202, Sincere Tower, 2 nd Floor, Commercial Complex, Preet Vihar, Near Petrol Pump, Delhi- 110092</span>
+                <a href={`mailto:${SITE_CONTENT.company.email}`} className="text-[#d1d5db] hover:text-white text-[13px] mt-1 transition-colors">
+                  {SITE_CONTENT.company.email}
+                </a>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-7 h-7 rounded-full bg-white shrink-0 flex items-center justify-center mt-1">
                   <MapPin className="w-3.5 h-3.5 text-[#051915]" />
                 </div>
-                <span className="text-[#d1d5db] text-[13px] leading-relaxed">23, Lawyers Chamber, Supreme Court of India, New Delhi- 110001</span>
-              </li>
-              <li className="flex items-start space-x-3">
-                <div className="w-7 h-7 rounded-full bg-white shrink-0 flex items-center justify-center mt-0.5">
-                  <MapPin className="w-3.5 h-3.5 text-[#051915]" />
-                </div>
-                <span className="text-[#d1d5db] text-[13px] leading-relaxed">Chamber No. 189, Tis Hazaari Court, Delhi-110054.</span>
-              </li>
-              <li className="flex items-start space-x-3">
-                <div className="w-7 h-7 rounded-full bg-white shrink-0 flex items-center justify-center mt-0.5">
-                  <MapPin className="w-3.5 h-3.5 text-[#051915]" />
-                </div>
-                <span className="text-[#d1d5db] text-[13px] leading-relaxed">G-401 Lawyers Chamber, Karkardooma Court, Delhi-110032.</span>
+                <span className="text-[#d1d5db] text-[13px] leading-relaxed">
+                  {SITE_CONTENT.company.address}
+                </span>
               </li>
             </ul>
           </div>

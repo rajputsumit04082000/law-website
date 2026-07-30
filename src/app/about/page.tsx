@@ -12,7 +12,7 @@ import { AboutCTA } from "@/components/sections/AboutCTA";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Prime Legal Service — a trusted law firm in Delhi NCR led by experienced advocates specializing in family law, matrimonial disputes, divorce, and criminal defense.",
+    "Learn about Prime Legal Service — a trusted law firm in Meerut led by experienced advocates specializing in family law, matrimonial disputes, divorce, and criminal defense.",
 };
 
 export default function AboutPage() {

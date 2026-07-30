@@ -6,7 +6,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "Criminal Lawyer in Meerut | Criminal Defense Advocate | Prime Legal Service",
   description:
-    "Looking for an experienced Criminal Lawyer in Meerut? Prime Legal Service provides expert legal representation in bail matters, FIRs, criminal trials, anticipatory bail, white-collar crimes, and High Court proceedings across Meerut and Delhi NCR.",
+    "Looking for an experienced Criminal Lawyer in Meerut? Prime Legal Service provides expert legal representation in bail matters, FIRs, criminal trials, anticipatory bail, white-collar crimes, and High Court proceedings across Meerut and Meerut.",
 };
 
 export default function Page() {
@@ -50,7 +50,7 @@ export default function Page() {
               </h3>
 
               <p className="text-gray-700 text-[14px] sm:text-[15px] leading-relaxed mb-4">
-                Prime Legal Service offers comprehensive criminal litigation services for individuals, professionals, and businesses throughout Meerut and Delhi NCR. Our advocates provide strategic legal advice, courtroom representation, and timely legal solutions in every criminal matter.
+                Prime Legal Service offers comprehensive criminal litigation services for individuals, professionals, and businesses throughout Meerut and Meerut. Our advocates provide strategic legal advice, courtroom representation, and timely legal solutions in every criminal matter.
               </p>
 
               <p className="text-gray-700 text-[14px] sm:text-[15px] leading-relaxed mb-4">Our services include:</p>
@@ -81,7 +81,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Call Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+919911077828</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+917417617432</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -90,7 +90,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Mail Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">info@primelegalservice.com</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">abhinavpradhan748@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">

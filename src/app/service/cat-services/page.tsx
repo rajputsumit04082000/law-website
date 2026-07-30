@@ -6,7 +6,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "CAT Lawyer in Meerut & NCR | Central Administrative Tribunal | Prime Legal Service",
   description:
-    "Expert legal representation before the Central Administrative Tribunal (CAT) in Meerut, Ghaziabad, Noida & Delhi NCR. Prime Legal Service handles service matters, promotions, departmental proceedings, suspension, and pension disputes for government employees across Uttar Pradesh and NCR.",
+    "Expert legal representation before the Central Administrative Tribunal (CAT) in Meerut, Ghaziabad, Noida & Meerut. Prime Legal Service handles service matters, promotions, departmental proceedings, suspension, and pension disputes for government employees across Uttar Pradesh and NCR.",
 };
 
 export default function Page() {
@@ -110,7 +110,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Call Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+919911077828</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+917417617432</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -119,7 +119,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Mail Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">info@primelegalservice.com</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">abhinavpradhan748@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">

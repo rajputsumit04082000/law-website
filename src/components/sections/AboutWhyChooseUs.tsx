@@ -8,7 +8,7 @@ const reasons = [
     icon: Award,
     title: "Award-Winning Expertise",
     description:
-      "Recognized across Delhi NCR for exceptional legal outcomes and client satisfaction in family, matrimonial, and criminal law.",
+      "Recognized across Meerut for exceptional legal outcomes and client satisfaction in family, matrimonial, and criminal law.",
   },
   {
     icon: UserCheck,
@@ -67,7 +67,7 @@ export function AboutWhyChooseUs() {
           <div className="w-20 h-1 bg-[#D4AF37] mx-auto rounded-full" />
           <p className="text-gray-400 text-[15px] mt-6 max-w-2xl mx-auto leading-relaxed">
             Choosing the right lawyer can define the outcome of your case. Here is why thousands of 
-            clients across Delhi NCR trust us with their most important legal matters.
+            clients across Meerut trust us with their most important legal matters.
           </p>
         </motion.div>
 

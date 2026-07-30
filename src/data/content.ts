@@ -1,11 +1,11 @@
 export const SITE_CONTENT = {
-  announcement: "Contact us today for a free initial consultation. Available 24/7 for emergencies.",
+  announcement: "Contact us today for a free initial consultation. Available 9:00 AM - 6:00 PM.",
   company: {
     name: "PRIME LEAGAL SERVICE",
-    phone: "+91 0000000000",
-    email: "dummy@example.com",
-    address: "123 Legal Avenue, Suite 500, City, State 12345",
-    workingHours: "Mon - Fri: 9:00 AM - 6:00 PM"
+    phone: "+91 74176 17432",
+    email: "abhinavpradhan748@gmail.com",
+    address: "Uday Vihar, B177, Uday City, Meerut, Uttar Pradesh 250110",
+    workingHours: "Mon - Sun: 9:00 AM - 6:00 PM"
   },
   stats: [
     { value: 2009, label: "Leading since", suffix: "", icon: "Scale" },
@@ -17,28 +17,28 @@ export const SITE_CONTENT = {
     {
       id: "divorce-lawyer",
       title: "Divorce Lawyer",
-      description: "Top divorce law services in Delhi/NCR — expert support for contested and mutual divorce cases with trusted guidance.",
+      description: "Top divorce law services in Meerut — expert support for contested and mutual divorce cases with trusted guidance.",
       icon: "Users",
       image: "/service/divorce_lawyer.jpeg"
     },
     {
       id: "domestic-violence",
       title: "Domestic Violence Lawyer",
-      description: "Experienced domestic violence lawyer in Delhi & NCR providing dedicated legal help to protect your rights and ensure your safety.",
+      description: "Experienced domestic violence lawyer in Meerut providing dedicated legal help to protect your rights and ensure your safety.",
       icon: "ShieldAlert",
       image: "/service/domestic-violence.jpg"
     },
     {
       id: "matrimonial-lawyer",
       title: "Matrimonial Lawyer",
-      description: "Trusted matrimonial lawyer specializing in divorce, alimony, and family disputes — protecting your interests with care and professionalism.",
+      description: "Trusted matrimonial lawyer in Meerut specializing in divorce, alimony, and family disputes — protecting your interests.",
       icon: "HeartHandshake",
       image: "/service/matrimonial.jpg"
     },
     {
       id: "family-disputes",
       title: "Family Disputes Lawyer",
-      description: "Best family dispute lawyer in Delhi NCR dedicated to protecting your rights and achieving fair resolutions in family matters.",
+      description: "Best family dispute lawyer in Meerut dedicated to protecting your rights and achieving fair resolutions in family matters.",
       icon: "Scale",
       image: "/service/family.jpg"
     },
@@ -52,14 +52,14 @@ export const SITE_CONTENT = {
     {
       id: "civil-lawyer",
       title: "Civil Litigation Lawyer",
-      description: "Strategic legal advice and representation for property disputes, recovery suits, injunctions, and contract enforcement.",
+      description: "Strategic legal advice and representation in Meerut for property disputes, recovery suits, injunctions, and contract enforcement.",
       icon: "FileText",
       image: "/service/civil.jpg"
     },
     {
       id: "cheque-bounce",
       title: "Cheque Bounce (Sec 138)",
-      description: "Effective legal solutions for dishonored cheques, notice drafting, recovery suits, and Section 138 NI Act litigation.",
+      description: "Effective legal solutions in Meerut for dishonored cheques, notice drafting, recovery suits, and Section 138 NI Act litigation.",
       icon: "CreditCard",
       image: "/images (1).jpg"
     },
@@ -73,28 +73,28 @@ export const SITE_CONTENT = {
     {
       id: "corporate-lawyer",
       title: "Corporate & Commercial Law",
-      description: "Comprehensive legal assistance for business compliance, contract drafting, corporate disputes, and regulatory matters.",
+      description: "Comprehensive legal assistance for business compliance, contract drafting, corporate disputes, and regulatory matters in Meerut.",
       icon: "Briefcase",
       image: "/service/corporate.jpg"
     },
     {
       id: "property-lawyer",
       title: "Property & Real Estate Law",
-      description: "Expert title verification, land disputes, property registration, and buyer protection under RERA regulations.",
+      description: "Expert title verification, land disputes, property registration, and buyer protection under RERA regulations in Meerut.",
       icon: "Home",
       image: "/images10.jpg"
     },
     {
       id: "cyber-law",
       title: "Cyber Law & Digital Fraud",
-      description: "Dedicated assistance for financial cyber crime, online fraud, identity theft, and digital data privacy disputes.",
+      description: "Dedicated assistance in Meerut for financial cyber crime, online fraud, identity theft, and digital data privacy disputes.",
       icon: "ShieldCheck",
       image: "/images (2).jpg"
     },
     {
       id: "rera-matters",
       title: "RERA Matters & Builder Disputes",
-      description: "Protecting homebuyer rights against builder delay, non-possession, refund claims, and builder-buyer contract violations.",
+      description: "Protecting homebuyer rights against builder delay, non-possession, refund claims, and builder-buyer contract violations in Meerut.",
       icon: "Building",
       image: "/tingey-injury-law-firm-L4YGuSg0fxs-unsplash.jpg"
     }
@@ -102,7 +102,7 @@ export const SITE_CONTENT = {
   whyChooseUs: [
     {
       title: "Unmatched Expertise",
-      description: "Our experienced legal professionals provide strategic advice and effective representation across a wide range of legal matters, ensuring every case is handled with precision and confidence.",
+      description: "Our experienced legal professionals provide strategic advice and effective representation across a wide range of legal matters in Meerut, ensuring every case is handled with precision and confidence.",
       icon: "Award"
     },
     {
@@ -112,7 +112,7 @@ export const SITE_CONTENT = {
     },
     {
       title: "Proven Track Record",
-      description: "Our firm has successfully represented individuals and businesses, earning a reputation for achieving practical, result-driven legal solutions.",
+      description: "Our firm has successfully represented individuals and businesses in Meerut, earning a reputation for achieving practical, result-driven legal solutions.",
       icon: "TrendingUp"
     },
     {
@@ -252,19 +252,19 @@ export const SITE_CONTENT = {
   faqs: [
     {
       question: "What should I bring to my initial consultation?",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      answer: "Please bring any relevant documents related to your legal query, such as notices, agreements, court papers, ID proof, or correspondence."
     },
     {
       question: "How do you charge for your services?",
-      answer: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+      answer: "We offer transparent fee structures with no hidden costs. Fees depend on the nature and complexity of the legal service required."
     },
     {
       question: "How long will my case take to resolve?",
-      answer: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae."
+      answer: "The timeline varies based on the type of legal procedure, court schedules, and case specifics. We focus on achieving timely resolutions."
     },
     {
       question: "Will my case go to trial?",
-      answer: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+      answer: "Not all legal matters require a court trial. We explore out-of-court settlements, mediation, and legal notices before proceeding to litigation."
     }
   ],
   navLinks: [

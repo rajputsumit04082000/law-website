@@ -77,27 +77,27 @@ export function ContactPreview() {
             />
 
             <p className="text-muted-foreground text-base mb-6 leading-relaxed">
-              Visit our office at the Judicial Court Complex, Mohali. Click the map to get directions on Google Maps.
+              Visit our office at Uday Vihar, Meerut. Click the map to get directions on Google Maps.
             </p>
 
             {/* Map Embed */}
             <div className="rounded-xl overflow-hidden border border-gray-100 shadow-sm group flex-1 min-h-[260px] relative">
               <a
-                href="https://www.google.com/maps/search/District+Courts+Mohali+Sector+76+SAS+Nagar+Punjab"
+                href="https://www.google.com/maps/search/Uday+Vihar+B177+Uday+City+Meerut+Uttar+Pradesh+250110"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block relative h-full"
-                aria-label="Open District Courts Mohali in Google Maps"
+                aria-label="Open Office Location in Google Maps"
               >
                 <iframe
-                  src="https://maps.google.com/maps?q=District+Courts+Mohali+Sector+76+SAS+Nagar+Punjab&output=embed&z=15"
+                  src="https://maps.google.com/maps?q=Uday+Vihar+B177+Uday+City+Meerut+Uttar+Pradesh+250110&output=embed&z=15"
                   width="100%"
                   height="100%"
                   style={{ border: 0, display: "block", minHeight: "260px" }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Office Location – Judicial Court Complex, Mohali"
+                  title="Office Location – Uday Vihar, Meerut"
                   className="pointer-events-none"
                 />
                 <div className="absolute inset-0 cursor-pointer z-10" />
@@ -113,7 +113,7 @@ export function ContactPreview() {
             {/* Contact Details */}
             <div className="mt-6 space-y-4">
               <a
-                href="https://www.google.com/maps/search/District+Courts+Mohali+Sector+76+SAS+Nagar+Punjab"
+                href="https://www.google.com/maps/search/Uday+Vihar+B177+Uday+City+Meerut+Uttar+Pradesh+250110"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 group/item"
@@ -123,9 +123,9 @@ export function ContactPreview() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900 group-hover/item:text-[#a67c52] transition-colors">
-                    Judicial Court Complex, Mohali
+                    Uday Vihar, B177, Uday City
                   </p>
-                  <p className="text-xs text-muted-foreground">Sector 76, SAS Nagar, Punjab</p>
+                  <p className="text-xs text-muted-foreground">Meerut, Uttar Pradesh 250110</p>
                 </div>
               </a>
 

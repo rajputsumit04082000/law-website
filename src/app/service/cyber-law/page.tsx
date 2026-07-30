@@ -6,7 +6,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "Cyber Law Lawyer in Meerut & NCR | Cyber Crime, IT Act & Online Fraud Cases | Prime Legal Service",
   description:
-    "Expert cyber law lawyers in Meerut, Ghaziabad, Noida & NCR. Prime Legal Service provides legal representation in cyber crime, online fraud, data privacy, cyber defamation, digital evidence, hacking, phishing, and IT Act matters across Meerut and Delhi NCR.",
+    "Expert cyber law lawyers in Meerut, Ghaziabad, Noida & NCR. Prime Legal Service provides legal representation in cyber crime, online fraud, data privacy, cyber defamation, digital evidence, hacking, phishing, and IT Act matters across Meerut and Meerut.",
 };
 
 export default function Page() {
@@ -41,7 +41,7 @@ export default function Page() {
                 </p>
 
                 <p>
-                  We assist clients in Meerut and NCR from the initial legal consultation through complaint filing with the Cyber Crime Police Station, police investigations, digital evidence management, litigation before courts in Meerut and Ghaziabad, appeals, and settlement wherever appropriate. Our objective is to protect your legal rights while ensuring quick and effective legal remedies in cyber-related disputes across Meerut, Ghaziabad, Noida, and Delhi NCR.
+                  We assist clients in Meerut and NCR from the initial legal consultation through complaint filing with the Cyber Crime Police Station, police investigations, digital evidence management, litigation before courts in Meerut and Ghaziabad, appeals, and settlement wherever appropriate. Our objective is to protect your legal rights while ensuring quick and effective legal remedies in cyber-related disputes across Meerut, Ghaziabad, Noida, and Meerut.
                 </p>
               </div>
 
@@ -118,7 +118,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Call Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+919911077828</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+917417617432</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -127,7 +127,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Mail Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">info@primelegalservice.com</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">abhinavpradhan748@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">

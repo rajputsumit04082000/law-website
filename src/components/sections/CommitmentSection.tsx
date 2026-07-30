@@ -27,7 +27,7 @@ export function CommitmentSection() {
             Our lawyers are excellent in legal drafting — whether it&apos;s petitions, complaints, deeds, 
             agreements or complex contracts and negotiations. We excel at negotiation, contract structuring, 
             and dispute resolution. Our success rate ranks among the highest in India, making us one of the 
-            leading law firms in <strong className="text-[#0b1120]">Delhi NCR</strong>.
+            leading law firms in <strong className="text-[#0b1120]">Meerut</strong>.
           </p>
 
           <p className="text-gray-600 text-[15px] leading-relaxed text-justify">

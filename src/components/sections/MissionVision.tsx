@@ -15,7 +15,7 @@ const values = [
     icon: Eye,
     title: "Our Vision",
     description:
-      "To be Delhi NCR's most trusted law firm, known for integrity, excellence, and a genuine commitment to transforming lives through the power of the law.",
+      "To be Meerut's most trusted law firm, known for integrity, excellence, and a genuine commitment to transforming lives through the power of the law.",
     color: "from-[#8B6914] to-[#D4AF37]",
   },
   {

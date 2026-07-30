@@ -6,7 +6,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "Debt Recovery Tribunal (DRT) Lawyer in Meerut & NCR | SARFAESI & NPA Recovery | Prime Legal Service",
   description:
-    "Expert Debt Recovery Tribunal (DRT) lawyers in Meerut, Ghaziabad, Noida & NCR. Prime Legal Service provides legal representation for banks, financial institutions, and borrowers in DRT proceedings, SARFAESI actions, NPA loan recovery, and debt restructuring disputes across Uttar Pradesh and Delhi NCR.",
+    "Expert Debt Recovery Tribunal (DRT) lawyers in Meerut, Ghaziabad, Noida & NCR. Prime Legal Service provides legal representation for banks, financial institutions, and borrowers in DRT proceedings, SARFAESI actions, NPA loan recovery, and debt restructuring disputes across Uttar Pradesh and Meerut.",
 };
 
 export default function Page() {
@@ -37,7 +37,7 @@ export default function Page() {
 
               <div className="space-y-4 text-gray-700 leading-relaxed text-[14px] sm:text-[15px]">
                 <p>
-                  The Debt Recovery Tribunal (DRT) is a specialised legal forum established under the Recovery of Debts and Bankruptcy Act, 1993, to adjudicate debt recovery disputes involving banks and financial institutions. At <strong>Prime Legal Service</strong>, our experienced DRT lawyers in Meerut and NCR represent both lenders and borrowers in Original Applications (OAs), Counter Claims, SARFAESI proceedings, and appeals before the Debt Recovery Appellate Tribunal (DRAT), ensuring effective resolution of complex financial disputes across Uttar Pradesh and Delhi NCR.
+                  The Debt Recovery Tribunal (DRT) is a specialised legal forum established under the Recovery of Debts and Bankruptcy Act, 1993, to adjudicate debt recovery disputes involving banks and financial institutions. At <strong>Prime Legal Service</strong>, our experienced DRT lawyers in Meerut and NCR represent both lenders and borrowers in Original Applications (OAs), Counter Claims, SARFAESI proceedings, and appeals before the Debt Recovery Appellate Tribunal (DRAT), ensuring effective resolution of complex financial disputes across Uttar Pradesh and Meerut.
                 </p>
 
                 <p>
@@ -110,7 +110,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Call Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+919911077828</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">+917417617432</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -119,7 +119,7 @@ export default function Page() {
                       </div>
                       <div>
                         <p className="font-semibold text-[14px] sm:text-[15px]">Mail Us</p>
-                        <p className="text-gray-300 text-[13px] sm:text-[14px]">info@primelegalservice.com</p>
+                        <p className="text-gray-300 text-[13px] sm:text-[14px]">abhinavpradhan748@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">

@@ -7,7 +7,7 @@ import { FaqAndMap } from "@/components/sections/FaqAndMap";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with Prime Legal Service. Visit our offices at Preet Vihar, Karkardooma, Supreme Court, or Tis Hazaari. Book a free legal consultation today.",
+    "Get in touch with Prime Legal Service in Meerut. Visit our office at Uday Vihar, Meerut or book a consultation today.",
 };
 
 export default function ContactPage() {

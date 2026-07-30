@@ -55,7 +55,7 @@ export function DisclaimerModal() {
             </p>
 
             <p>
-              If you wish to get more information about us or would like to get in touch with <strong>ABC &amp; Associates</strong>, you may contact us on our registered email address: ABC@gmail.com.
+              If you wish to get more information about us or would like to get in touch with <strong>Prime Legal Service</strong>, you may contact us on our registered email address: abhinavpradhan748@gmail.com.
             </p>
 
             <p>As per the rules of the Bar Council of India, Advocates are not permitted to solicit or advertise their work. By clicking on &ldquo;I Agree&rdquo; below, the user (you) acknowledges the following:</p>
